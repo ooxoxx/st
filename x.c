@@ -1124,7 +1124,7 @@ xinit(int cols, int rows)
 	Window parent;
 	pid_t thispid = getpid();
 	XColor xmousefg, xmousebg;
-+	Pixmap blankpm;
+	Pixmap blankpm;
 	XWindowAttributes attr;
 	XVisualInfo vis;
 
